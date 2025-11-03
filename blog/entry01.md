@@ -1,7 +1,9 @@
 # Entry 1
 ##### X/X/XX
+### Context
 
-Text
+### EDP
+### Skills 
 
 [Next](entry02.md)
 
