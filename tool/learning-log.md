@@ -16,9 +16,6 @@
 * put the pngs from phaser into a folder so you can access them and actually load them
 * to put the code from downloaded zip files, you gotta extract them first
 
-### X/X/XX:
-* Text
-
 
 <!--
 * Links you used today (websites, videos, etc)
