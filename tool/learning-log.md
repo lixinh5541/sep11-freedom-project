@@ -16,7 +16,7 @@
 * put the pngs from phaser into a folder so you can access them and actually load them
 * to put the code from downloaded zip files, you gotta extract them first
 
-### 12/8/25: 
+### 12/8/25:
 * During part 4 of the tutorial, I learned the dynamic and static physics
 * My tetris shapes will be dynamic because they will fall down which requires velocity
 * In the tutorial, the code doesn't make the variable for you so I cant just copy and paste
@@ -29,6 +29,25 @@
 * In part 7, I learn how to move my little dude or sprite, I reconize that the code has conditionals which is pretty cool
 * Phaser has a built in key board manager and I think it means it detects when keys are being pressed which is good because I have no clue how to do that
 * The speed of my dude or spirte can be changed with the numbers after the set velocity code
+
+### 12/14/25:
+* Repeat value says how many times it will repeat excluding the orginal item
+* SetXY sets the coordinates of something you want
+* stepX determines the value of how much the X coordinate changes from the each repeat
+* In part 8, I add 12 stars that fall out the sky and I can change how bouncy the stars are when they drop
+* Maybe the tetris shapes that drop can bounce
+* The stars dissapear when the dude touches a star disabling the star so you cant see the star making it seem like the dude picked it up
+* In part 9, I start of my declaring a variable for the score
+* When the dude picks up a star it increases the score by 10, I remember I did something like that in 9th grade
+* How the score is displayed, kinda like the CSS, is written in the create function
+* In part 10, I add bombs which have the same physics of the stars being bouncy and dynamic
+* If the dude hits a bomb then the game ends but nothing happens and you just cant control the dude no more
+* for my game I want a button for the user to retry instead of reloading the page so I gotta learn how to do that
+* countactive is used to count the number of stars and when its 0, it spawns a bomb
+* Finished the tutorial
+
+
+
 
 <!--
 * Links you used today (websites, videos, etc)
