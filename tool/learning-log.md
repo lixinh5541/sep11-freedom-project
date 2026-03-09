@@ -46,6 +46,14 @@
 * countactive is used to count the number of stars and when its 0, it spawns a bomb
 * Finished the tutorial
 
+### 3/8/26:
+* Im using Phaser from a CDN thats included in my HTML
+* I pasted the Phaster code structure
+* I choose a black background
+* I created a title by adding text and put it on the top of the screen
+* The title is called Litris so its very different from tetris
+* I made the text white and big so users can see it
+* I think im going to shrink the screen to a small rectangle as my container for the shapes and make the screen bigger and add a container if i have time
 
 
 
