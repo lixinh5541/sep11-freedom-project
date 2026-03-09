@@ -1,21 +1,29 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Phaser
+## Product: Tetris remix 
 
 ---
 
 ## Timeline
 
 #### MVP
-
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
-
+- [ ] Webpage has like a bucket for the blocks to fall in (2/16)
+- [ ] Create blocks falling down
+  - [ ] Make them tangent and fall down (deadline: 2/23)
+  - [ ] Make them random colors and shapes (deadline: 3/2)
+  - [ ] Make user able to move the blocks (deadline: 3/9)
+- [ ] Make blocks fall faster as time goes on (deadline: 3/16)
+- [ ] Create a score system by listening to when blocks fall down (deadline: 3/23)
+- [ ] Make blocks dissapear when in a row (deadline: 3/30)
+- [ ] End the game when blocks reach a certain height (4/6)
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Make score based on how many blocks dissapear
+- [ ] Make the webpage look prettier
+  - [ ] Background of grass and flowers
+  - [ ] The container for the boxes has color
+- [ ] Make user able to restart the game instead of reloading
 
 
 <!-- EXAMPLE
