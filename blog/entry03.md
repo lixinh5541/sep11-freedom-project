@@ -1,8 +1,8 @@
 # Entry 3
 ##### 3/11/26
 
-### What have I learned about Phaser?
-##### Movement of sprites
+## What have I learned about Phaser?
+### Movement of sprites
 Using the [tutorial](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1) on Phaser, I learned that to make sprites you use conditionals to change the velocity of the X values of the sprite. 
 ```js
 if (cursors.left.isDown)
@@ -25,7 +25,7 @@ if (cursors.up.isDown && player.body.touching.down)
 ```
 the numbers inside of `player.setVelocityX();` is the speed of the sprite when the specific key is pressed. A higher value will make the sprite faster and a lower value will make it slower. A negative X speed makes the sprite go left because X values go decrease going to the left. When no keys are pressed the velocity will be 0 because its not moving. 
 
-##### Bombs
+### Bombs
 I learned about some properties you can add on to some varibles like making them bouncy.
 ```js
         var bomb = bombs.create(x, 16, 'bomb');
