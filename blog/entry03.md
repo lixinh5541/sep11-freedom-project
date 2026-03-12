@@ -46,11 +46,14 @@ function hitBomb (player, bomb)
     gameOver = true;
 ```
 The function runs when the player variable touches the bomb and it just stops the game by puasing all the physica and setting `gameOver` to be true. `.setTint();` just changes the color of the variable and in my exmaple makes him go red.
-### Whats next
+## Whats next
 * I want to more properties to add to my shapes in my tetris game to make it more unique
 * Im going to learn how to end the game after the blocks reach a certern height
 * I have to learn how to change the variable that is being moved by the user
-* Im going to learn how do delete certain parts of variables 
+* Im going to learn how do delete certain parts of variables
+
+## Engineering Design Process (EDP)
+I believe that i am on step 2, research the problem, and step 3, Brainstorm possible solutions, of the EDP. Im defintly still learning about how Phaser works, which is researching the problem but as I learn, I think about how im going to include the code into my project. This is makes me think im in the mid point of step 2 to 3 because i am thinking about possible solutions on how to create my project aswell as learning new code. 
 
 [Previous](entry02.md) | [Next](entry04.md)
 
