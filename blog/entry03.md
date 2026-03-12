@@ -55,6 +55,10 @@ The function runs when the player variable touches the bomb and it just stops th
 ## Engineering Design Process (EDP)
 I believe that i am on step 2, research the problem, and step 3, Brainstorm possible solutions, of the EDP. Im defintly still learning about how Phaser works, which is researching the problem but as I learn, I think about how im going to include the code into my project. This is makes me think im in the mid point of step 2 to 3 because i am thinking about possible solutions on how to create my project aswell as learning new code. 
 
+## Skills
+### How to learn
+I cant just copy and paste code from the tutorial because that wont help me learning. I have to actually learn what the code does and not just for that specific moment. I do this by changing the code from the tutorial to my liking. This builds on my ablitly to learn because If i can change the code to be what i want then that means i would have learned how to use that piece of code. 
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
