@@ -19,7 +19,9 @@ I took me a while to do shapes because my whole game is revolved around shapes. 
 let rectangle = this.add.rectangle(300, 300, 300, 200, 0xff0000);
 let circle = this.add.ellipse(400, 300, 200, 100, 0x00ff00);
 ```
-
+I made the shapes into variables because i will mulnipulate their properties later on and now i have two shapes, a rectangle and a ellispe. 
+## My progress:
+!()[
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
