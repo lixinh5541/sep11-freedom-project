@@ -24,7 +24,12 @@ I made the shapes into variables because i will mulnipulate their properties lat
 ![](../tool/start-project.png)
 
 ### EDP
-I am currently on step 4 and 5 in the engineering design process which is plan the most promising solution and create a prototype. I have already created a plan for the MVP and the beyond MVP for my project. I have also started to create the MVP and made little progress as you could see my code eailer. 
+I am currently on step 4 and 5 in the engineering design process which is plan the most promising solution and create a prototype. I have already created a plan for the MVP and the beyond MVP for my project. I have also started to create the MVP and made little progress as you could see my code above. I think im going to be at step 5 for a decent amount of time before step 6 which is test and evaluate the prototype because I still have a long way to go beofore completing my MVP. 
+
+### Skills 
+#### Embracing failure
+The project is not easy for me and everytime i code theres always a problem but thats okay because i always find a solution. When i was making shapes for my game, it wouldnt work at all and i see my classmates's progress so far and it makes me failing even worse. However i didnt let it discourage me and i eventually found my problem which was i was using a outdated version of phaser. Failing made me learn that tons of things can go wrong with your code and sometimes its not even your code. 
+
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
