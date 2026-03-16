@@ -21,7 +21,9 @@ let circle = this.add.ellipse(400, 300, 200, 100, 0x00ff00);
 ```
 I made the shapes into variables because i will mulnipulate their properties later on and now i have two shapes, a rectangle and a ellispe. 
 ## My progress:
-!()[../tool/start-project.png]
+![](../tool/start-project.png)
+
+
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
