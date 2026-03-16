@@ -23,7 +23,8 @@ I made the shapes into variables because i will mulnipulate their properties lat
 ## My progress:
 ![](../tool/start-project.png)
 
-
+### EDP
+I am currently on step 4 and 5 in the engineering design process which is plan the most promising solution and create a prototype. I have already created a plan for the MVP and the beyond MVP for my project. I have also started to create the MVP and made little progress as you could see my code eailer. 
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
