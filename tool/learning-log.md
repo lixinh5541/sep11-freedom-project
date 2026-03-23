@@ -55,7 +55,12 @@
 * I made the text white and big so users can see it
 * I think im going to shrink the screen to a small rectangle as my container for the shapes and make the screen bigger and add a container if i have time
 
-
+### 3/23/26:
+* I added some physics in my game so then the blocks will be able to collide
+* I tried to make it so the user can move the shapes with Gabriel
+* I found out it only works with sprites so I dont know if I should use regular shapes or sprites
+* Im leaning more on sprites because they seem simpler and I think im going to find some pictures of shapes for my game
+* The movement should work after replacing the shapes with sprites of shapes
 
 <!--
 * Links you used today (websites, videos, etc)
