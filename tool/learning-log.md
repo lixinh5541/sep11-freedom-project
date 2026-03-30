@@ -62,6 +62,12 @@
 * Im leaning more on sprites because they seem simpler and I think im going to find some pictures of shapes for my game
 * The movement should work after replacing the shapes with sprites of shapes
 
+### 3/30/26
+* I made my shape move
+* It also goes down automatically
+* The user can only move left and right
+* When the user pressed the down arrow the shape falls faster
+* Im going to try to make the user control a different shape after it falls down
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
