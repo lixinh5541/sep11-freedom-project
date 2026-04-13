@@ -1,91 +1,105 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
         <style>
-            /* CSS */
-            html, body{
+            html, body {
                 margin: 0;
                 padding: 0;
                 display: flex;
                 justify-content: center;
                 align-items: center;
             }
-            #game-container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
         </style>
-
-        <title>Title</title>
+        <title>Litris</title>
     </head>
     <body>
-        <!-- HTML -->
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <script src="script.js"></script> -->
         <script>
-            // JS
             var config = {
-            type: Phaser.AUTO,
-            width: 800,
-            height: 600,
-            backgroundColor: "#111111",
-            physics: {
-                default:'arcade',
-                arcade: {
-                    gravity:{ y: 300},
-                    debug:true
+                type: Phaser.AUTO,
+                width: 500,
+                height: 800,
+                backgroundColor: "#111111",
+                physics: {
+                    default: 'arcade',
+                    arcade: {
+                        gravity: { y: 300 },
+                        debug: true
+                    }
+                },
+                scene: {
+                    preload: preload,
+                    create: create,
+                    update: update,
                 }
-            },
-            scene: {
-                preload: preload,
-                create: create,
-                update: update,
+            };
+
+            var game = new Phaser.Game(config);
+            let shape;
+            let shapeColor = 0;
+            let colors = [0xff0000, 0x00ff00, 0xffff00];
+            let landedShapes = [];
+
+            function preload() {
+                const g = this.make.graphics({ x: 0, y: 0, add: false });
+                g.fillStyle(0xffffff);
+                g.fillRect(0, 0, 100, 100);
+                g.generateTexture('block', 100, 100);
             }
-        };
 
-        var game = new Phaser.Game(config);
-        let rectangle
-        let circle
-        function preload ()
-        {
-        }
+            function create() {
+                this.add.text(170, 0, "LITRIS", {
+                    fontSize: "48px",
+                    fill: "#ffffff",
+                });
 
-        function create ()
-        {
-        this.cursorKeys = this.input.keyboard.createCursorKeys()
+                this.cursorKeys = this.input.keyboard.createCursorKeys();
 
-            this.add.text(300, 0, "LITRIS", {
-                fontSize: "48px",
-                fill: "#ffffff",
-            });
-            rectangle = this.add.rectangle(300, 300, 300, 200, 0xff0000);
-            circle = this.add.ellipse(400, 300, 200, 100, 0x00ff00);
-
-
-        }
-        function update ()
-        {
-            if (this.cursorKeys.left.isDown){
-                rectangle.setVelocityX(-160);
+                shape = this.physics.add.image(250, 25, 'block');
+                shape.setDisplaySize(100, 100);
+                shape.setTint(0xff0000);
+                shape.setCollideWorldBounds(true);
             }
-            /* else if (cursors.right.isDown){
-                rectangle.setVelocityX(160);
-            }
-            else{
-                rectangle.setVelocityX(0);
-            } */
-        }
 
+            function update() {
+                if (this.cursorKeys.left.isDown) {
+                    shape.setVelocityX(-200);
+                } else if (this.cursorKeys.right.isDown) {
+                    shape.setVelocityX(200);
+                } else {
+                    shape.setVelocityX(0);
+                }
+                if (this.cursorKeys.down.isDown){
+                    shape.setVelocityY(500);
+                } else{
+                    shape.setVelocityY(200);
+                }
+                if (shape.body.blocked.down) {
+                    shape.setVelocity(0, 0);
+                    shape.body.allowGravity = false;
+                    shape.body.setImmovable(true);
+                    landedShapes.push(shape);
+                    spawnNewShape(this);
+                }
+                if (landedShapes.some(s => s.y <= 100)) {
+                    landedShapes.forEach(s => s.destroy());
+                    landedShapes = [];
+                }
+
+            }
+            function spawnNewShape(scene) {
+                shapeColor = (shapeColor + 1) % colors.length;
+                shape = scene.physics.add.image(250, 25, 'block');
+                shape.setDisplaySize(100, 100);
+                shape.setTint(colors[shapeColor]);
+                shape.setCollideWorldBounds(true);
+
+                landedShapes.forEach(landed => {
+                    scene.physics.add.collider(shape, landed);
+                });
+            }
         </script>
     </body>
 </html>
