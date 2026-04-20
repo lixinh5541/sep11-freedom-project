@@ -21,8 +21,8 @@ scene.physics.add.collider(shape, landed);
 ```
 LandedShapes is the array name and the code, `.forEach`, loops through every element in the array. With every element, `scene.physics.add.collider` it adds a collider between the new shape and all the existing landed shapes and it just stops them from passing through one another. 
 ## How I finished my MVP
-#### (Preview)[https://lixinh5541.github.io/sep11-freedom-project/]
-#### (Code)[https://github.com/lixinh5541/sep11-freedom-project/blob/main/index.html]
+#### [Preview](https://lixinh5541.github.io/sep11-freedom-project/)
+#### [Code](https://github.com/lixinh5541/sep11-freedom-project/blob/main/index.html)
 Along the way of making my MVP, I faced a lot of challenges that I normally google to see if there's any code that could be a solution for my problem however I just couldn't find solutions to some problems and turned to ai. A problem I faced was with using `this.add.rect` and I searched and found images on this [page](https://docs.phaser.io/phaser/concepts/gameobjects/image). However when I first tried to use it, it had no color and i couldnt do anything to add color to it. This is where I turned to ai it gave me this code:
 ```js
 const g = this.make.graphics({ x: 0, y: 0, add: false });
