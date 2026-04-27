@@ -19,7 +19,8 @@
 - [ ] End the game when blocks reach a certain height (4/6)
 #### Beyond MVP
 
-- [ ] Make score based on how many blocks dissapear
+- [ ] blocks dissapear
+- [ ] Make score based 
 - [ ] Make the webpage look prettier
   - [ ] Background of grass and flowers
   - [ ] The container for the boxes has color
