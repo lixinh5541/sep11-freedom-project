@@ -8,9 +8,9 @@ For my project, I chose to independently study **X** in order to help me make **
 
 ## Links
 
-[Product]()
+[Product](https://lixinh5541.github.io/sep11-freedom-project/)
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1xb2Th8vERK6QMfTPZvxGTIaCxW1C4BbF8SjUJWcgv_c/edit?slide=id.g3e16881d000_0_20#slide=id.g3e16881d000_0_20)
 
 ## Implications
 ##### PROS
