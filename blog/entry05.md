@@ -38,6 +38,7 @@ I think I am just finished with step 5, creating a prototype, as I completed my 
 With the MVP deadline coming up, I was shocked and panicking because I overestimated myself with what I can do. This was when I started to prioritize doing my MVP and removing certain parts that were unnecessary to my game. Although there are still many features I'd like to add, having a playable game was the most important thing and I prioritized my time to get that MVP done. This meant i spent more time coding but also used my time on more important aspects in my game rather than perfecting one so i can use my time more wisely. 
 ### Growth mindset
 Although I was making my game, there were things I didn't know how to do that prevented me from doing so. This made me realize that making my MVP should also be a time for me to grow. Even though I spent time learning, there was much i didnt know that can help me work towards my MVP. I spent my time coding my game but also learning new stuff too which contributed to my growth mindset as im not perfect and there are things i still have to learn even if i took time to prepare myself. 
+
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
